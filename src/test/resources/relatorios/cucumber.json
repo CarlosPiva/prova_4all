@@ -1,0 +1,82 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Realizar compra de doces",
+        "description": "",
+        "id": "realizar-compras;realizar-compra-de-doces",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7970042800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que Daiani acessou a categoria de doces da loja 4all",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 48
+                }
+              ],
+              "location": "RealizarComprasStep.que_Daiani_acessou_a_categoria_de_doces_da_loja_all(int)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 515904500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionou os doces que deseja comprar",
+            "match": {
+              "location": "RealizarComprasStep.selecionou_os_doces_que_deseja_comprar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 54109100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ela finaliza a compra",
+            "match": {
+              "location": "RealizarComprasStep.ela_finaliza_a_compra()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 789881700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "será apresentada uma mensagem informando que o pideido foi realizado com sucesso",
+            "match": {
+              "location": "RealizarComprasStep.será_apresentada_uma_mensagem_informando_que_o_pideido_foi_realizado_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar compras",
+    "description": "Como cliente da loja online 4all\r\nDaiani deseja selecionar alguns produtos\r\npara que ela possa realizar uma compra",
+    "id": "realizar-compras",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/realizarCompras.feature"
+  }
+]

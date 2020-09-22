@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.329938">
+<testcase classname="Realizar compras" name="Realizar compra de doces" time="9.329938">
+<system-out><![CDATA[Dado que Daiani acessou a categoria de doces da loja 4all...................passed
+E selecionou os doces que deseja comprar....................................passed
+Quando ela finaliza a compra................................................passed
+Então será apresentada uma mensagem informando que o pideido foi realizado com sucesso.passed
+]]></system-out>
+</testcase>
+</testsuite>
