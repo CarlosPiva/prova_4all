@@ -2,7 +2,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
-public class DadosVeiculosPage extends BasePage {
+public class VehicleDataPage extends BasePage {
 
     By cb_make                 = By.id("make");
     By cb_model                = By.id("model");

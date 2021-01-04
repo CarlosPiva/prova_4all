@@ -2,7 +2,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
-public class DadosSeguroPage extends BasePage {
+public class InsurantDataPage extends BasePage {
 
     By txt_first_name           = By.id("firstname");
     By txt_last_name            = By.id("lastname");

@@ -2,7 +2,7 @@ package pages;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-public class EnviarCotacaoPage extends BasePage {
+public class SendQuotePage extends BasePage {
 
     By txt_email       = By.id("email");
     By txt_phone       = By.id("phone");

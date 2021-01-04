@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Prova_Hub4all" />
+        <module name="Prova" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Prova_Hub4all" target="1.5" />
+      <module name="Prova" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

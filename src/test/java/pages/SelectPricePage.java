@@ -1,7 +1,7 @@
 package pages;
 import org.openqa.selenium.By;
 
-public class OpcaoPrecoPage extends BasePage {
+public class SelectPricePage extends BasePage {
 
     By rb_silver     = By.xpath("//tr/th[2]/label[1]");
     By rb_gold       = By.xpath("//tr/th[2]/label[2]");
